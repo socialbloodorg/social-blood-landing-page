@@ -14,7 +14,7 @@ body {
   background: -moz-linear-gradient(#b25bcf, #7442be); /* For Firefox 3.6 to 15 */
   background: linear-gradient(#b25bcf, #7442be); /* Standard syntax */
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: fixed
 }
 
 i {
