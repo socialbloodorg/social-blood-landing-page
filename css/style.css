@@ -1,99 +1,99 @@
 html {
-  height: 100%;
-  width: 100%;
+	height: 100%;
+	width: 100%;
 }
 body {
-  height: 100%;
-  width: 100%;
-  margin:0;
+	height: 100%;
+	width: 100%;
+	margin:0;
 	padding:0;
-  overflow-x: hidden;
-  background: #7442be; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#b25bcf, #7442be); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#b25bcf, #7442be); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#b25bcf, #7442be); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#b25bcf, #7442be); /* Standard syntax */
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+	overflow-x: hidden;
+	background: #7442be; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#b25bcf, #7442be); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#b25bcf, #7442be); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#b25bcf, #7442be); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#b25bcf, #7442be); /* Standard syntax */
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 i {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: block;
-  z-index: -1;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: block;
+	z-index: -1;
 }
 
 canvas#spiders {
-  opacity: 0.2;
+	opacity: 0.2;
 }
 
 #content {
-  position: absolute;
-  z-index: 1000;
-  display: block;
-  margin: 0 auto;
-  transform: translate(-50%, 0);
-  left: 50%;
-  top: 20%;
-  height: auto;
-  color: #fff;
-  text-align: center;
+	position: absolute;
+	z-index: 1000;
+	display: block;
+	margin: 0 auto;
+	transform: translate(-50%, 0);
+	left: 50%;
+	top: 20%;
+	height: auto;
+	color: #fff;
+	text-align: center;
 }
 
 #content #main-content {
-  width: 230px;
-  margin: 0 auto;
+	width: 230px;
+	margin: 0 auto;
 }
 
 #content img {
-  max-width: 100%;
+	max-width: 100%;
 }
 
 #about-content {
-  display: none;
-  margin-top: 0;
-  padding-top: 0
+	display: none;
+	margin-top: 0;
+	padding-top: 0
 }
 
 .links {
-  margin-top: 10px;
+	margin-top: 10px;
 }
 
 .links ul {
-  width:100%;
-  margin:0;
-  padding:0;
-  list-style:none;
-  text-align:center;
-  font-family: sans-serif;
+	width:100%;
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-align:center;
+	font-family: sans-serif;
 }
 
 .links li {
-  display:inline;
+	display:inline;
 }
 
 .links a {
-  font-size: 14px;
-  font-weight: 400;
-  color: #fff;
-  text-decoration: none;
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+	text-decoration: none;
 
-  width:27%;
-  text-align:center;
-  display:inline-block;
-  padding-top:12px;
-  padding-bottom:12px;
-  margin-left: 1px;
+	width:27%;
+	text-align:center;
+	display:inline-block;
+	padding-top:12px;
+	padding-bottom:12px;
+	margin-left: 1px;
 }
 
 .links li:first-child a{
-    margin-left: 0;
+		margin-left: 0;
 }
 
 .links a:hover {
-  text-decoration: underline;
+	text-decoration: underline;
 }
