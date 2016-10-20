@@ -116,30 +116,30 @@ body#four .text {
 }
 
 body#four .text:nth-child(5n + 1) {
-  stroke: #F2385A;
+  stroke: #fff;
   -webkit-animation-delay: -1.2s;
   animation-delay: -1.2s;
 }
 body#four .text:nth-child(5n + 2) {
-  stroke: #F5A503;
+  stroke: #fff;
   -webkit-animation-delay: -2.4s;
   animation-delay: -2.4s;
 }
 
 body#four .text:nth-child(5n + 3) {
-  stroke: #E9F1DF;
+  stroke: #fff;
   -webkit-animation-delay: -3.6s;
   animation-delay: -3.6s;
 }
 
 body#four .text:nth-child(5n + 4) {
-  stroke: #56D9CD;
+  stroke: #fff;
   -webkit-animation-delay: -4.8s;
   animation-delay: -4.8s;
 }
 
 body#four .text:nth-child(5n + 5) {
-  stroke: #3AA1BF;
+  stroke: #fff;
   -webkit-animation-delay: -6s;
   animation-delay: -6s;
 }
@@ -157,11 +157,17 @@ body#four .text:nth-child(5n + 5) {
 }
 
 body#four {
-  background: #111;
   background-size: .2em 100%;
   font: 14.5em/1 Open Sans, Impact;
   text-transform: uppercase;
   margin: 0;
+  background: #7442be; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#b25bcf, #7442be); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#b25bcf, #7442be); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#b25bcf, #7442be); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#b25bcf, #7442be); /* Standard syntax */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 svg {
