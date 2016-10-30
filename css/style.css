@@ -54,7 +54,11 @@ canvas#spiders {
 }
 
 #about-content {
-	display: none;
+	padding: 10px;
+	text-align:center;
+	width: 580px;
+	max-width: 100%;
+	color: #fff;
 	margin-top: 0;
 	padding-top: 0
 }
