@@ -85,6 +85,7 @@ canvas#spiders {
 	font-weight: 400;
 	color: #fff;
 	text-decoration: none;
+	outline: none;
 
 	width:27%;
 	text-align:center;
@@ -92,6 +93,11 @@ canvas#spiders {
 	padding-top:12px;
 	padding-bottom:12px;
 	margin-left: 1px;
+}
+
+a:active {
+  outline:0;
+  border:none;
 }
 
 .links li:first-child a{
@@ -178,4 +184,21 @@ svg {
   position: absolute;
   width: 100%;
   height: 100%;
+}
+
+/*Removes the link outline on mobile tap*/
+* { -webkit-tap-highlight-color: rgba(0,0,0,0); }
+
+.lity-content:after {
+	box-shadow: none;
+}
+
+.lity {
+	background: #7442be; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#b25bcf, #7442be); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#b25bcf, #7442be); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#b25bcf, #7442be); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#b25bcf, #7442be); /* Standard syntax */
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
